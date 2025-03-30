@@ -1,21 +1,18 @@
 ---
 title: "Adriano De Ruvo"
 about:
-  template: jolla
+  template: trestles
   image: profile.jpg
   links:
     - icon: twitter
       text: twitter
-      href: https://twitter.com
+      href: https://x.com/adrianoderuvo?s=21
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/adriano-de-ruvo
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
-    - icon: google
-      text: Google Scholar
-      href: https://scholar.google.com
+      href: https://www.linkedin.com/in/adriano-de-ruvo-2919131a1/
 ---
 
 I am a first year Ph.D. student in Economics at Brown University University.
