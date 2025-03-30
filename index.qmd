@@ -3,20 +3,15 @@ title: "Adriano De Ruvo"
 about:
   template: trestles
   image: profile.jpg
-  links:
-    - icon: twitter
-      text: twitter
-      href: https://x.com/adrianoderuvo?s=21
-    - icon: github
-      text: Github
-      href: https://github.com/adriano-de-ruvo
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/adriano-de-ruvo-2919131a1/
+
 ---
 
-I am a first year Ph.D. student in Economics at Brown University University.
+Ciao! I am a first-year Ph.D. student in Economics at [Brown University](https://economics.brown.edu).
 
-Most of my current research is driven by trying to find an answer to the age-old question of “How cute am I?"
+I am interested in **political economy**, **public economics** and **growth**; I like studying the interplay between culture, institutions and economic outcomes.
 
-Please feel free to get in touch!
+I received my BSc and MSc in Economics and Social Sciences from [Bocconi University](https://www.unibocconi.it/en/programs/master-science/economic-and-social-sciences). Before starting my PhD, I worked as a research assistant for Professor Marco Tabellini (Harvard University) and Professor Paola Giuliano (UCLA). I was also an intern at the Department of Territorial Economic Analysis and Research of the [Bank of Italy](https://www.bancaditalia.it/compiti/ricerca-economica/index.html).
+
+I grew up in Rome, went to college in Milan, and traveled around Europe for a year prior to moving to Providence, RI to begin my Ph.D.
+
+**email** adriano_de_ruvo [at] brown.edu  

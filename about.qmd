@@ -1,29 +1,17 @@
 ---
-title: "Simone"
+title: "Adriano De Ruvo"
 about:
   template: trestles
-  image: profile.jpg
-  links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
-    - icon: github
-      text: Github
-      href: https://github.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: google
-      text: Google Scholar
-      href: https://scholar.google.com
+  
+  
 ---
 
-A longer paragraph about me and my interests and anything else I like to do.
+I grew up in Rome, went to college in Milan, and traveled around Europe for a year before moving to Providence, RI to begin my Ph.D.
 
-## Education
 
-Where I studied
 
-## Experience
+I received a Bachelor's and Master's degree in Economics and Social Sciences from [Bocconi University](https://www.unibocconi.it/en/programs/master-science/economic-and-social-sciences).
 
-What I've done
+
+
+Before starting my PhD, I worked as a research assistant for Professor Marco Tabellini (Harvard University) and Professor Paola Giuliano (UCLA). I was also an intern at the Department of Territorial Economic Analysis and Research of the [Bank of Italy](https://www.bancaditalia.it/compiti/ricerca-economica/index.html).
