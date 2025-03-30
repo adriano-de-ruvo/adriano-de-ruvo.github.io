@@ -1,5 +1,5 @@
 ---
-title: "Simone"
+title: "Adriano De Ruvo"
 about:
   template: jolla
   image: profile.jpg
@@ -18,7 +18,7 @@ about:
       href: https://scholar.google.com
 ---
 
-I am a Ph.D. student in upside-down studies at Sunspot University.
+I am a first year Ph.D. student in Economics at Brown University University.
 
 Most of my current research is driven by trying to find an answer to the age-old question of “How cute am I?"
 
