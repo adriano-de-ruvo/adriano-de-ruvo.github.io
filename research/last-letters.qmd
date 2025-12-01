@@ -1,5 +1,5 @@
 ---
-title: "Last letters"
+title: "Last Letters"
 description: "Interactive 3D visualization of thematic clusters from the Ultime lettere project."
 ---
 
