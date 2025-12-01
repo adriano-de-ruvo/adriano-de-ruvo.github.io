@@ -7,4 +7,4 @@ description: "Interactive 3D visualization of thematic clusters from the Ultime 
 
 This project presents an interactive 3D visualization of thematic clusters extracted from historical last letters.
 
-👉 **[Open the interactive visualization](theme_categories_3d.html)**
+👉 **[Open the interactive visualization](balanced_clusters_3d.html)**
