@@ -4,5 +4,7 @@ listing:
   type: default
   contents:
     - "*.qmd"
+  max-description-length: 175
+  fields: [image, title, description, date]
 ---
 

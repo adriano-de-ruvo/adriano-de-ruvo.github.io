@@ -11,21 +11,21 @@
     "href": "research/last-letters.html",
     "title": "Last Letters",
     "section": "",
-    "text": "This project presents an interactive 3D visualization of thematic clusters extracted from historical last letters.\n👉 Open the interactive visualization"
+    "text": "To build the interactive visualization, I first group together similar “themes” extracted from the letters. Each theme is turned into a numerical representation using a sentence-embedding model (SentenceTransformer all-MiniLM-L6-v2), which places semantically similar texts close to one another in a 384-dimensional space.\nI then apply k-means clustering to these embeddings, trying different numbers of clusters between 2 and 21 and selecting k = 7 using the standard “elbow” method on the within-cluster inertia. To make the result robust, I use a consensus clustering approach: k-means is run 100 times on random 85% subsamples of the data, I record how often any two themes end up in the same cluster, and then fit a final k-means on the full set of themes using this information.\nCluster stability is checked in two ways: (i) a consensus measure that shows themes are very consistently grouped (average within-cluster stability about 0.95), and (ii) bootstrap replications on new subsamples, which yield a high adjusted Rand index (about 0.97). Finally, I label each cluster using TF-IDF keywords and project the embeddings into three dimensions with UMAP to create the interactive 3D visualization you see on this page.\nClick here for an interactive visualization of the semantic clusters"
   },
   {
-    "objectID": "research/last-letters.html#last-letters",
-    "href": "research/last-letters.html#last-letters",
+    "objectID": "research/last-letters.html#from-themes-to-semantic-clusters",
+    "href": "research/last-letters.html#from-themes-to-semantic-clusters",
     "title": "Last Letters",
     "section": "",
-    "text": "This project presents an interactive 3D visualization of thematic clusters extracted from historical last letters.\n👉 Open the interactive visualization"
+    "text": "To build the interactive visualization, I first group together similar “themes” extracted from the letters. Each theme is turned into a numerical representation using a sentence-embedding model (SentenceTransformer all-MiniLM-L6-v2), which places semantically similar texts close to one another in a 384-dimensional space.\nI then apply k-means clustering to these embeddings, trying different numbers of clusters between 2 and 21 and selecting k = 7 using the standard “elbow” method on the within-cluster inertia. To make the result robust, I use a consensus clustering approach: k-means is run 100 times on random 85% subsamples of the data, I record how often any two themes end up in the same cluster, and then fit a final k-means on the full set of themes using this information.\nCluster stability is checked in two ways: (i) a consensus measure that shows themes are very consistently grouped (average within-cluster stability about 0.95), and (ii) bootstrap replications on new subsamples, which yield a high adjusted Rand index (about 0.97). Finally, I label each cluster using TF-IDF keywords and project the embeddings into three dimensions with UMAP to create the interactive 3D visualization you see on this page.\nClick here for an interactive visualization of the semantic clusters"
   },
   {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "What I am currently thinking about:",
     "section": "",
-    "text": "Exporting Autocracy:Chinese Trade Expansion and Democratic Retreat\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLast Letters\n\n\nInteractive 3D visualization of thematic clusters from the Ultime lettere project.\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Exporting Autocracy:Chinese Trade Expansion and Democratic Retreat\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLast Letters\n\n\nI study how individuals articulate meaning, obligation, and hope in the face of imminent death, and how these private narratives relate to the political construction of…\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/project-1.html",

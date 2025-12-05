@@ -1,5 +1,7 @@
 ---
 title: "Last Letters"
+image: umap.png
+
 description: "I study how individuals articulate meaning, obligation, and hope in the face of imminent death, and how these private narratives relate to the political construction of martyrdom. I assemble a new corpus of 754 “last letters” written by 574 deportees and death-row inmates of the Italian Resistance, scraped from archival transcriptions and linked to rich biographical information and measures of post-war public recognition (decorations and epigraphic commemoration). I use a large language model to extract emotionally and existentially salient themes from each letter and validate the procedure through human–LLM agreement exercises and recipient-classification tests. The resulting themes are embedded using sentence-transformer representations and grouped into seven stable clusters—such as family and love, concern for relatives’ material well-being, spiritual faith, moral and political ideals, and acceptance of fate—via consensus k-means clustering on semantic embeddings. I then treat these clusters as text-based outcomes and study how the salience of each theme varies with age and other writer characteristics. Preliminary estimates show systematic age gradients: older writers place more weight on concern for dependents and acceptance of fate, while younger writers emphasize remembrance, hope, and self-focused regret. The project opens a new text-as-data agenda at the intersection of political economy, the economics of well-being, and the study of collective memory and martyrdom."
 ---
 
