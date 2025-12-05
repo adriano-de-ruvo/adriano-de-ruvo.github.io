@@ -1,10 +1,14 @@
 ---
 title: "Last Letters"
-description: "Interactive 3D visualization of thematic clusters from the Ultime lettere project."
+description: "I study how individuals articulate meaning, obligation, and hope in the face of imminent death, and how these private narratives relate to the political construction of martyrdom. I assemble a new corpus of 754 “last letters” written by 574 deportees and death-row inmates of the Italian Resistance, scraped from archival transcriptions and linked to rich biographical information and measures of post-war public recognition (decorations and epigraphic commemoration). I use a large language model to extract emotionally and existentially salient themes from each letter and validate the procedure through human–LLM agreement exercises and recipient-classification tests. The resulting themes are embedded using sentence-transformer representations and grouped into seven stable clusters—such as family and love, concern for relatives’ material well-being, spiritual faith, moral and political ideals, and acceptance of fate—via consensus k-means clustering on semantic embeddings. I then treat these clusters as text-based outcomes and study how the salience of each theme varies with age and other writer characteristics. Preliminary estimates show systematic age gradients: older writers place more weight on concern for dependents and acceptance of fate, while younger writers emphasize remembrance, hope, and self-focused regret. The project opens a new text-as-data agenda at the intersection of political economy, the economics of well-being, and the study of collective memory and martyrdom."
 ---
 
-## Last letters
+## From Themes to Semantic Clusters
 
-This project presents an interactive 3D visualization of thematic clusters extracted from historical last letters.
+To build the interactive visualization, I first group together similar “themes” extracted from the letters. Each theme is turned into a numerical representation using a sentence-embedding model (SentenceTransformer all-MiniLM-L6-v2), which places semantically similar texts close to one another in a 384-dimensional space.
 
-👉 **[Open the interactive visualization](balanced_clusters_3d.html)**
+I then apply k-means clustering to these embeddings, trying different numbers of clusters between 2 and 21 and selecting k = 7 using the standard “elbow” method on the within-cluster inertia. To make the result robust, I use a consensus clustering approach: k-means is run 100 times on random 85% subsamples of the data, I record how often any two themes end up in the same cluster, and then fit a final k-means on the full set of themes using this information.
+
+Cluster stability is checked in two ways: (i) a consensus measure that shows themes are very consistently grouped (average within-cluster stability about 0.95), and (ii) bootstrap replications on new subsamples, which yield a high adjusted Rand index (about 0.97). Finally, I label each cluster using TF-IDF keywords and project the embeddings into three dimensions with UMAP to create the interactive 3D visualization you see on this page.
+
+**[Click here for an interactive visualization of the semantic clusters](balanced_clusters_3d.html)**
